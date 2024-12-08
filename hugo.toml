@@ -5,6 +5,7 @@ theme = 'PaperMod'
 [params]
 defaultTheme = "auto"
 disableThemeToggle = false
+
 [params.homeInfoParams]
 Title = "Hi there, I am Eric"
 Content = "A 3rd yr Student in University of Southampton"
@@ -20,5 +21,4 @@ url = "https://www.linkedin.com/in/bingchenjiang/"
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
-[params]
 ShowShareButtons = true
