@@ -4,4 +4,21 @@ title = 'Eric Blog'
 theme = 'PaperMod'
 [params]
 defaultTheme = "auto"
-disableThemeToggle = true
+disableThemeToggle = false
+[params.homeInfoParams]
+Title = "Hi there, I am Eric"
+Content = "A 3rd yr Student in University of Southampton"
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/EricJiang0423"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/bingchenjiang/"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+ShowShareButtons = true
