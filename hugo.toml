@@ -2,3 +2,6 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Eric Blog'
 theme = 'PaperMod'
+[params]
+defaultTheme = "auto"
+disableThemeToggle = true
